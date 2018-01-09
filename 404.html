@@ -1,31 +1,30 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <base href="/" id="baseHref">
-    <script type="text/javascript">
-      console.log(window.location.hostname)
-      const hrefDomains = {
-        'mol.org': '//mol.org/upload-dev/',
-        'www.mol.org': '//www.mol.org/upload-dev/'
-      }
-      document.getElementById('baseHref').href = hrefDomains[window.location.hostname] ? hrefDomains[window.location.hostname] : '/';
+<head>
+  <base href="/" id="baseHref">
+  <script type="text/javascript">
+    console.log(window.location.hostname)
+    const hrefDomains = {
+      'mol.org': '//mol.org/upload-dev/',
+      'www.mol.org': '//www.mol.org/upload-dev/'
+    }
+    document.getElementById('baseHref').href = hrefDomains[window.location.hostname] ? hrefDomains[window.location.hostname] : '/';
+  </script>
+  <meta charset="utf-8">
+  <title>Upload</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="https://mapoflife.github.io/upload-dev/favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://mapoflife.github.io/upload-dev/styles.45d87585fe35cc5c05dc.bundle.css" rel="stylesheet" />
+</head>
 
-    </script>
-    <meta charset="utf-8">
-    <title>Upload</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="https://mapoflife.github.io/upload-dev/favicon.ico">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://mapoflife.github.io/upload-dev/styles.45d87585fe35cc5c05dc.bundle.css" rel="stylesheet" />
-  </head>
-
-  <body>
-    <app-root></app-root>
-    <script type="text/javascript" src="https://mapoflife.github.io/upload-dev/inline.b1d434cc6ec0d1b1bd3d.bundle.js"></script>
-    <script type="text/javascript" src="https://mapoflife.github.io/upload-dev/polyfills.2ed9f56fb5fb36b12e54.bundle.js"></script>
-    <script type="text/javascript" src="https://mapoflife.github.io/upload-dev/vendor.e77fb4cf5220be9a0f56.bundle.js"></script>
-    <script type="text/javascript" src="https://mapoflife.github.io/upload-dev/main.8b6bdf55703b6d6d5df8.bundle.js"></script>
-  </body>
+<body>
+  <app-root></app-root>
+  <script type="text/javascript" src="https://mapoflife.github.io/upload-dev/inline.4252ca57b72822bfb09e.bundle.js"></script>
+  <script type="text/javascript" src="https://mapoflife.github.io/upload-dev/polyfills.2ed9f56fb5fb36b12e54.bundle.js"></script>
+  <script type="text/javascript" src="https://mapoflife.github.io/upload-dev/vendor.789f39f684e5a5fb2aa3.bundle.js"></script>
+  <script type="text/javascript" src="https://mapoflife.github.io/upload-dev/main.974816198e40c548117e.bundle.js"></script>
+</body>
 
 </html>
