@@ -1,7 +1,0 @@
-scientificName,decimalLatitude,decimalLongitude,eventDate,basisOfRecord,additionalExampleColumn
-Puma concolor,42.12,5.13,2014-05-13,PreservedSpecimen,2
-Puma concolor,42.12,5.13,2014-05-13,FossilSpecimen,3
-Puma concolor,42.12,5.13,2014-05-13,PreservedSpecimen,4
-Puma concolor,42.12,5.13,2014-05-13,LivingSpecimen,5
-Puma concolor,42.12,5.13,2014-05-13,HumanObservation,6
-Puma concolor,42.12,5.13,2014-05-13,MachineObservation,7
